@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>GRUMPY IMAGE UI</title>
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:;" />
+
+  <link href="./assets/main.css" type="text/css" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="./assets/icon.png">
+  <script type="module" src="./ui/renderer.ts" async></script>
+</head>
+
+<body>
+  <app-root></app-root>
+</body>
+
+</html>

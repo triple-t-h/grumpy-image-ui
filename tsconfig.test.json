@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "types": ["mocha", "chai", "node"],
+    "module": "commonjs",
+    "target": "ES2021",
+    "lib": ["ES2021"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@core/*": ["src/core/*"],
+      "@renderer/*": ["src/renderer/*"],
+      "@stores/*": ["src/core/stores/*"],
+      "@ui/*": ["src/renderer/ui/*"]
+    }
+  },
+  "include": [
+    "tests/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "out",
+    "build",
+    "src"
+  ]
+}

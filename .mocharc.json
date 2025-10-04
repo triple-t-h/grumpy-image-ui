@@ -1,0 +1,14 @@
+{
+  "extension": ["ts"],
+  "spec": "tests/**/*.ts",
+  "recursive": true,
+  "timeout": 5000,
+  "reporter": "spec",
+  "require": [
+    "ts-node/register/transpile-only"
+  ],
+  "ts-node": {
+    "project": "tsconfig.test.json",
+    "files": true
+  }
+}
