@@ -61,8 +61,8 @@ Grumpy Image UI was created for learning purposes. It is a modern, user-friendly
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/grumpy-image.git
-cd grumpy-image
+git clone https://github.com/triple-t-h/grumpy-image-ui.git
+cd grumpy-image-ui
 
 # Install dependencies
 npm install
